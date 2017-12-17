@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{685aec70-191a-4983-a119-6447f685bac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{97ec8464-be23-45fb-96e7-283ff0b37c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stage">
+      <UniqueIdentifier>{ccceeaf5-bf78-4916-a155-d47bc5ed4409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{619b02c7-dd16-471c-ac06-856ed5c5b6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wrapper">
+      <UniqueIdentifier>{7802baac-571c-4d8a-b64a-bb95e852a8e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\GameOverScene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\GameScene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\TItleScene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\system\MyUtils.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\GoalZone.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\Mirror.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\Object.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\Planet.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\Ray.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\Stage.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stage\Wall.cpp">
+      <Filter>src\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\EditScene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\wrapper\EventListenerGesture.cpp">
+      <Filter>src\wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\GameOverScene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\GameScene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\TitleScene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\system\MyUtils.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\GoalZone.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\Mirror.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\Object.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\Planet.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\Ray.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\Stage.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stage\Wall.h">
+      <Filter>src\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\EditScene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\system\Vector.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\EventListenerGesture.h">
+      <Filter>src\wrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
